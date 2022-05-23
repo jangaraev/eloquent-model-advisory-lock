@@ -31,6 +31,6 @@ a callable to execute.
 You then can use this method to wrap your DB intensive calls.
 
 ```php
-    // wrap you DB-intensive operations as a callable to the advisoryLock call
-    static::advisoryLock(fn () => $this->coolRelationship()->firstOrCreate());
+// wrap you DB-intensive operations as a callable to the advisoryLock call
+static::advisoryLock(fn () => $this->coolRelationship()->firstOrCreate());
 ```
