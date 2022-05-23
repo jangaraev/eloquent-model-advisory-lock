@@ -2,7 +2,7 @@
   "name": "jangaraev/eloquent-model-advisory-lock",
   "type": "library",
   "version": "0.9",
-  "description": "Handy approach to avoid race conditions when doing upserts",
+  "description": "Handy approach to avoid race conditions when doing upserts in Laravel Eloquent models",
   "keywords": ["laravel", "php", "eloquent", "db", "model", "race conditions", "upsert"],
   "homepage": "https://github.com/jangaraev/eloquent-model-advisory-lock",
   "license": "MIT",
