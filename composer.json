@@ -1,7 +1,7 @@
 {
   "name": "jangaraev/eloquent-model-advisory-lock",
   "type": "library",
-  "version": "0.9",
+  "version": "0.91",
   "description": "Handy approach to avoid race conditions when doing upserts in Laravel Eloquent models",
   "keywords": ["laravel", "php", "eloquent", "db", "model", "race conditions", "upsert"],
   "homepage": "https://github.com/jangaraev/eloquent-model-advisory-lock",
@@ -15,7 +15,7 @@
   ],
   "require": {
     "php": ">=7.4",
-    "illuminate/support": "^7.0|^8.0|^9.0"
+    "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0"
   },
   "autoload": {
     "psr-4": {
